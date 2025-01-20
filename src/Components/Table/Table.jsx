@@ -20,7 +20,7 @@ export const Table = ({ data }) => {
           return (
             <React.Fragment key={itemId}>
               <tr>
-                <td style={{ paddingLeft: `${level * 20}px` }}>
+                <td style={{ paddingLeft: `${level * 5}px`, }}>
                   {item.children && item.children.length > 0 && (
                     <button onClick={() => toggleVisibility(itemId)}>
                       {isVisible ? "-" : "+"}
